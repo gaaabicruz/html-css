@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+            background-attachment: fixed;
+            */
 
+            /* short-hand background 
+                color > image > position > repeat > [size] > attachment
+
+                Porem tem que por o size separado, nao funciona na short-hand mesmo que nas regras diz que funciona na pratica nao, entao apenas o size, colocar separado
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed ;
+            background-size: cover;
         }
 
         main {
@@ -29,6 +38,9 @@
     <main>
         <h1>Teste com imagens de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odit enim laudantium quis iste sapiente nemo aspernatur debitis ullam quibusdam quasi unde, voluptatum facere eligendi fugiat illo aperiam ad ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum praesentium accusantium esse itaque reprehenderit mollitia quaerat saepe iste ut laboriosam dolorem quidem asperiores atque doloremque, pariatur vel quo quos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis voluptate minus consectetur quis! Excepturi veritatis beatae pariatur error obcaecati itaque quasi eveniet dolores, eius omnis exercitationem! Deleniti consequatur libero ea.</p>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed voluptatibus laboriosam qui sequi debitis, commodi numquam, similique consequuntur itaque nisi, error dolorum repellat a laudantium asperiores cum quaerat cupiditate ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quam quia? Accusantium dolore soluta blanditiis cumque aut necessitatibus atque ab quia debitis? Iure asperiores veniam odit nostrum minus voluptas ratione.</p>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet fuga voluptates provident veritatis, facere id inventore vero unde ducimus, porro repudiandae. Autem minus illo ad quaerat nulla odio pariatur voluptatibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas fugit ab dolor natus pariatur laboriosam eum officiis veritatis adipisci quae eligendi perspiciatis fugiat vitae distinctio iure exercitationem, quos eos voluptatem.</P>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas eum, itaque debitis eaque optio sint maiores ab voluptate, asperiores perspiciatis sequi consequuntur saepe facilis alias ipsam impedit aspernatur autem! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt odit repudiandae itaque sit ea officiis ut accusamus corrupti. Quas pariatur dolores delectus dolor similique consequuntur nam quia quae odit blanditiis?</p>
     </main>
 </body>
 </html>
